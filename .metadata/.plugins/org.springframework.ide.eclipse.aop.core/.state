@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="spring_fileUpload"/>
+<aop-project name="spring_AOP">
+<aspect-definition advice-class-name="com.spring.advice.양치하기" advice-method-name="chikachika" advice-type="AFTER" aspect-end-line-number="22" aspect-name="advice" aspect-start-line-number="22" factory-id="org.springframework.ide.eclipse.aop.core.beanAspectDefinitionElementFactory" file="/spring_AOP/src/main/resources/application-context.xml" pointcut-expression="execution(public * com.spring.behavior..밥먹기*(..))" proxy-target-class="false">
+<aop-reference advice-type="AFTER" bean="1:BeansModel|2:spring_AOP|3:src/main/resources/application-context.xml|7:beans:6|8:behavior:10" bean-file="/spring_AOP/src/main/resources/application-context.xml" bean-start-line="10" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/spring_AOP/src/main/resources/application-context.xml" source="=spring_AOP/src\/main\/java&lt;com.spring.advice{양치하기.java[양치하기~chikachika~QJoinPoint;" source-start-line="6" target="=spring_AOP/src\/main\/java&lt;com.spring.behavior{행동하기.java[행동하기~밥먹기" target-start-line="17"/>
+</aspect-definition>
+<aspect-definition advice-class-name="com.spring.advice.양치하기" advice-method-name="chikachika" advice-type="BEFORE" aspect-end-line-number="21" aspect-name="advice" aspect-start-line-number="21" factory-id="org.springframework.ide.eclipse.aop.core.beanAspectDefinitionElementFactory" file="/spring_AOP/src/main/resources/application-context.xml" pointcut-expression="execution(public * com.spring.behavior..잠자기*(..))" proxy-target-class="false">
+<aop-reference advice-type="BEFORE" bean="1:BeansModel|2:spring_AOP|3:src/main/resources/application-context.xml|7:beans:6|8:behavior:10" bean-file="/spring_AOP/src/main/resources/application-context.xml" bean-start-line="10" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/spring_AOP/src/main/resources/application-context.xml" source="=spring_AOP/src\/main\/java&lt;com.spring.advice{양치하기.java[양치하기~chikachika~QJoinPoint;" source-start-line="6" target="=spring_AOP/src\/main\/java&lt;com.spring.behavior{행동하기.java[행동하기~잠자기" target-start-line="7"/>
+</aspect-definition>
+</aop-project>
+<aop-project name="tiles_test"/>
+<aop-project name="spring_MVC"/>
+<aop-project name="spring_selfStudy"/>
+<aop-project name="spring_DI_IOC"/>
+<aop-project name="final_test"/>
+<aop-project name="spring_interceptor"/>
+<aop-project name="spring_security"/>
+<aop-project name="spring_board"/>
+</aop-reference-model>
